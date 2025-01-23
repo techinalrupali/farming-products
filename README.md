@@ -1,6 +1,6 @@
 # online Farming Store Products link
 
-https://onlinefarmingstore.netlify.app
+https://onlinefarmingstore.netlify.app/
 
 # Image for output of project
 
