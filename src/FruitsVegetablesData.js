@@ -1,0 +1,268 @@
+
+
+const fData=[
+
+    {id:1,
+    name: 'Apple',
+    "category":"Fruits", 
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwgzUKvDTQAudMjDwZZbvDcTfCaWJ34RBcgA&usqp=CAU', 
+    rating:"4/5",
+    price:"200.00",
+    description:"An apple is a round fruit with red or green skin and a whitish inside. One variety of apple might be sweet, another sour.The apple isn't just a fruit.",
+   
+    },
+
+    {id:2,
+    name: 'Strawberry', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwfQt5K8XCByL1kG71TKelgc5BUSA3liJlGg&usqp=CAU', 
+    rating:"4/5",
+    price:"100.00",
+    description:"A strawberry is both a low-growing, flowering plant and also the name of the fruit that it produces. Strawberries are soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface.",
+},
+
+    {id:3,
+    name: 'Orange', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj53fo5lQGP5BzrzWsWvUVrPJhr-CqMwtNqQ&usqp=CAU', 
+    rating:"4/5",
+    price:"180.00",
+    description:"The fruit is a modified berry known as a hesperidium, and the flesh is divided into segments called carpels. The usual shape of the sweet-orange fruit is round and the colour of its pulp orange, but there are variations.",
+    
+},
+{
+    id:4,
+    name: 'Eggplant', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJPDaUL9T3B5EWNtbdqV1RKO6kjmSLLT3QQ&usqp=CAU', 
+    rating:"3.5/5",
+    price:"30.00",
+    description:"An eggplant is a large, purple-skinned vegetable that is especially delicious breaded, fried, and covered with cheese and red sauce. Eggplants are one of those foods that we think of as a vegetables but are officially considered fruits.",
+    
+} ,
+
+{id:5,
+    name: 'Cabbage', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltKav52elm05u-AJbm4fw4jyJNtCBaWrxuA&usqp=CAU', 
+    rating:"3.5/5",
+    price:"20.00",
+    description:"Green cabbage is a leafy green vegetable that grows in tight, spherical heads, which gives it its nickname of cannonball cabbage.",
+    
+} ,
+{id:6,
+    name: 'Peas', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqPUkLNKATmOugKMnxC8xI47kqBfHr_-lUQ&usqp=CAU', 
+    rating:"4/5",
+    price:"25.00",
+    description:"A pea is a most commonly green, occasionally golden yellow, or infrequently purple pod-shaped vegetable, widely grown as a cool-season vegetable crop.",
+
+} ,
+{id:7,
+    name: 'Bengal Gram', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVCrNSBHh7FTtQU1Dome-J1aSffhl--2JZxg&usqp=CAU', 
+    rating:"4/5",
+    price:"150.00",
+    description:"Bengal gram is widely appreciated as health food. It is a protein-rich supplement to cereal-based diets, especially to the poor in developing countries, where people are vegetarians or cannot afford animal protein. The pulse proteins are rich in lysine and have low sulfur containing amino acids.",
+   
+} ,
+{id:8,
+    name: 'Green Gram', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMBMF1qFiRdd74TloDvty6q239ZaQ0kPDxyg&usqp=CAU', 
+    rating:"4/5",
+    price:"160.00",
+    description:"Green gram is a protein rich staple food. It contains about 25 percent protein, which is almost three times that of cereals. It supplies protein requirement of vegetarian population of the country. It is consumed in the form of split pulse as well as whole pulse, which is an essential supplement of cereal based diet.",
+    
+} ,
+{id:9,
+    name: 'Red Gram', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTshbXd2whQsK0fjywIICa9rhrJO4AQpoTz3ZO4yiUIHLtKPUGFuD1Rl2FtUvNZYtuU7a4&usqp=CAU', 
+    rating:"3.5/5",
+    price:"150.00",
+    description:"Red gram is an important pulse crop in India. It is also known as Pigeonpea, Arhar. and Tur. Red gram is mainly cultivated and consumed in developing countries of the world.",
+    
+} ,
+
+    {id:10,
+    name: 'Banana', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMCIIMSzZy7Ycj-mpwWyQUOWxfLWwd8vAobA&usqp=CAU', 
+    rating:"4/5",
+    price:"50.00",
+    description:"A banana is a curved, yellow fruit with a thick skin and soft sweet flesh. If you eat a banana every day for breakfast.",
+    
+},
+
+    {id:11,
+    name: 'Papaya', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18A2fqIYTx_rIawgRITeAImMuaoKc_t-8ng&usqp=CAU', 
+    rating:"4/5",
+    price:"50.00 ",
+    description:"Papaya has a sweet taste and creamy texture that many people describe as tasting like a cross between a cantaloupe and a mango.",
+    
+},
+
+    {id:12,
+    name: 'Mango', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIdr9_iBP9VEyoNeQo-R_JY-wkGpgywoq4lQ&usqp=CAU', 
+    rating:"4/5",
+    price:"100.00",
+    description:"A mango is a sweet tropical fruit, and it's also the name of the trees on which the fruit grows. Ripe mangoes are juicy, fleshy, and delicious.",
+
+},
+{id:13,
+    name: 'Carrot', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1bHLUh-bFV4l0TGKB_KqNx2dSGF4JH3K5nw&usqp=CAU', 
+    rating:"3.5/5",
+    price:"30.00",
+    description:"Carrot is a biennial, belonging to the family Apiaceae, and is an important vegetable for its fleshy edible, colorful roots. It varies in colour from white, yellow, orange, light purple, deep red to deep violet.",
+    
+} ,
+{id:14,
+    name: 'Onion', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNM4P0tKo1hbTfnTMbLViHAaDVzNt61g3sRA&usqp=CAU', 
+    rating:"4/5",
+    price:"40.00",
+    description:"Onions belong to the Allium family of plants, which also includes chives, garlic, and leeks. These vegetables have characteristic pungent flavors and some medicinal properties. Onions vary in size, shape, color, and flavor. The most common types are red, yellow, and white onions.",
+    
+} ,
+{id:15,
+    name: 'Potato', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ54ss8brXiaLJOxdVLaKOuCaO9EYDGYcDnLA&usqp=CAU', 
+    rating:"4/5",
+    price:"30.00",
+    description:"Potato fruits are a succulent but inedible spherical, yellow-green berry, up to 4cm across. Underground, the edible root forms a tuber that can be a range of colours, sizes and shapes, depending on the cultivated variety (cultivar).",
+    
+} ,
+
+{id:16,
+    name: 'Black Gram', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Ih2fYFHPFlEtDH022Jf8KX7IWNlRVQizQA&usqp=CAU', 
+    rating:"4/5",
+    price:"180.00",
+    description:"Black gram (Vigna mungo (L.) Hepper) is an erect, fast-growing annual, herbaceous legume reaching 30-100 cm in height. It has a well-developed taproot and its stems are diffusely branched from the base. Occasionally it has a twining habit and it is generally pubescent",
+    
+} ,
+{id:17,
+    name: 'Ground Nuts', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSM4VAt6v-w-mwV0bOWAgnbzqqG1EY4oJEWQ&usqp=CAU', 
+    rating:"3.5/5",
+    price:"160.00",
+    description:"Peanut or groundnut (Arachis hypogaea), is a species in the legume or bean family. The peanut was probably first domesticated and cultivated in the valleys of Paraguay. It is an annual herbaceous plant growing 30 to 50 cm (1.0 to 1.6 ft) tall.",
+    
+} ,
+{id:18,
+    name: 'Millet', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfF_s6omVyj863MZTNFNs4tGqigseSa4_-Sw&usqp=CAU', 
+    rating:"4/5",
+    price:"100.00",
+    description:"They are small-seeded grasses belonging to the botanical family Poaceae. They constitute an important source of food and fodder for millions of resource-poor farmers and play a vital role in ecological and economic security of India. These millets are also known as coarse cereals or cereals of the poor.",
+    
+} ,
+
+    {id:19,
+    name: 'Watermelon', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlURB8uaiDCiv3KJc3U175pvs7SB2e6YMsg&usqp=CAU', 
+    rating:"4/5",
+    price:"120.00",
+    description:"Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo. The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist.",
+    
+},
+
+{id:20,
+    name: 'Kiwi', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSprSlrw4gYCXjIEcTuauIi0teSBiju9PTivA&usqp=CAU', 
+    rating:"4/5",
+    price:"100.00",
+    description:"Good-quality kiwifruit will be fairly large and plump with thin brown skin. The flesh should be emerald green with tiny black edible seeds radiating from the center and have a mild, sweet flavor. Choose kiwifruit that is free of wrinkles.",
+    
+},
+{id:21,
+    name: 'Graps', 
+    "category":"Fruits",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLiyjaxtN9UfSEC-ezFESh814MtQGHkpvvUw&usqp=CAU', 
+    rating:"4/5",
+    price:"60.00",
+    description:"The fruit of the grape is a berry. Berries are attached to the stem. Many berries make up the cluster or bunch of grapes. The essential parts of the berry include the skin, pulp, and seeds.",
+    
+} ,
+
+
+{id:22,
+    name: 'Cauliflower', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZ9chM34dreuUeqLngtT2gNsoIZkTVY9bJA&usqp=CAU', 
+    rating:"3.5/5",
+    price:"15.00",
+    description:"Cauliflowers are annual plants that reach about 0.5 metre (1.5 feet) tall and bear large rounded leaves that resemble collards (Brassica oleracea, variety acephala). As desired for food, the terminal cluster forms a firm, succulent “curd,” or head, that is an immature inflorescence (cluster of flowers).",
+    
+} ,
+{id:23,
+    name: 'Tomato', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Lyyx0yIR0TrOMA5FS2cuZTLbcQ2KahVTOQ&usqp=CAU', 
+    rating:"4/5",
+    price:"20.00",
+    description:"The tomato fruit is globular or ovoid. Botanically, the fruit exhibits all of the common characteristics of berries; a simple fleshy fruit that encloses its seed in the pulp. The outer skin is a thin and fleshy tissue that comprises the remainder of the fruit wall as well as the placenta.",
+    
+} ,
+{id:24,
+    name: 'Garlic', 
+    "category":"Vegetables",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT4hKJWHL4O6GxT0WgNKgTS0okqM8HN4EvgQ&usqp=CAU', 
+    rating:"3.5/5",
+    price:"50.00",
+    description:"Garlic is the small, white, round bulb of a plant that is related to the onion plant. Garlic has a very strong smell and taste and is used in cooking.",
+    
+} ,
+
+
+
+{id:25,
+    name: 'Maize', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqfrV1QkFQAElaYXkx6l8DAguD_7JMAiDk-g&usqp=CAU', 
+    rating:"3.5/5",
+    price:"100.00",
+    description:"Maize is a cultivated grass that usually reaches around 3m in height. The stems have dark green and shiny leaves that grow alternately along either side. At the top of the stem, numerous male flowers are arranged in a complex structure resembling tassels, and release pollen when blown by the wind.",
+    
+} ,
+{id:26,
+    name: 'Kidney Beans', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPfOiEHhAv2VMR55ccB5M_Elu66LXrxUqUUg&usqp=CAU', 
+    rating:"4/5",
+    price:"150.00",
+    description:"The kidney bean is a variety of the common bean (P. vulgaris), so named because of its kidney-like shape and its colour. The optimum moisture range is 12–14%. The colour of kidney beans ranges all the way from very light red to very dark, almost purple.",
+    
+} ,
+{id:27,
+    name: 'Barley', 
+    "category":"Grocery Seeds",
+    cover:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ872JKC5zorbXM4B3DlvAHtdgUm0a6hEpvIA&usqp=CAU', 
+    rating:"4/5",
+    price:"60.00",
+    description:"Barley, Hordeum vulgare, is an edible annual grass in the family Poaceae grown as a cereal grain crop. It is a tall grass with a hairy stem that stands erect and produces spikelets at the head. The nodes and internodes make up the stem. The internodes are hollow, as opposed to the solid internodes.",
+    
+} ,
+
+
+];
+
+export default fData;
+
+
